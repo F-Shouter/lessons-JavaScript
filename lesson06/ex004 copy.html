@@ -13,10 +13,16 @@
 </head>
 <body>
     <script>
-        var name = window.prompt("What's your name?")
-        document.write(`You name <strong>${name}</strong> have ${name.length} letters.<br/>`)
-        document.write(`You name ${name} in Uppercase ${name.toUpperCase()}<br/>`)
-        document.write(`You name ${name} in Lowercase ${name.toLowerCase()}<br/>`)
+        var x = Number(window.prompt("x = "))
+        document.write(`x : ${x} <br/>`)
+        x++
+        document.write(`x ++ : ${x} <br/>`)
+        document.write(`x : ${x} <br/>`)
+        x--
+        document.write(`x -- : ${x} <br/>`)
+        document.write(`x : ${x} <br/>`)
+        x += 4
+        document.write(`x += 4 : ${x} <br/>`)
     </script>
 </body>
 </html>
