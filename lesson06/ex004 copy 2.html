@@ -16,10 +16,27 @@
         var x = Number(window.prompt("x = "))
         document.write(`VALUE X = ${x} <br/>`)
         if ( x > 0 ){
-            document.write(`${x} > 0`)
+            document.write(`${x} > 0 <br/>`)
         }
         else {
-            document.write(`${x} < 0`)
+            document.write(`${x} < 0 <br/>`)
+        }
+        document.write('--------------------------------------------------- <br/>')
+
+        var n1 = parseInt(window.prompt('n1(int)= '))
+        var n2 = String(window.prompt('n2(string)= '))
+
+        if (n1 == n2){
+            document.write(`${n1} == ${n2} <br/>`)
+        }
+        if (n1 === n2){
+            document.write(`${n1} === ${n2} <br/>`)
+        }
+        if (n1 != n2){
+            document.write(`${n1} != ${n2} <br/>`)
+        }
+        if (n1 !== n2){
+            document.write(`${n1} !== ${n2} <br/>`)
         }
     </script>
 </body>
