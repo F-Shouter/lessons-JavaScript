@@ -18,7 +18,11 @@
     <p>Study using the <strong>DOM</strong> in JS</p>
     <div>Click here</div>
     <script>
-        window.document.write(window.document.URL) //showing the url in this page
+        window.document.write(window.document.URL + '<br/>') //showing the url in this page
+        
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(`p1: ${p1.innerText}`)
+    
     </script>
 </body>
 </html>
